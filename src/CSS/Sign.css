@@ -1,0 +1,63 @@
+/* Sign.css */
+
+/* Container styles */
+.bg-white-800 {
+  /* Add any container styles here */
+}
+
+/* Main container for sign content */
+.flex.flex-col.items-center {
+  /* Add styles for centering and layout */
+}
+
+/* Form section styles */
+.flex.justify-center.gap-10.font-semibold {
+  /* Add styles for form section */
+}
+
+/* Color input container styles */
+.flex.items-center.mb-4 {
+  /* Add styles for color input container */
+}
+
+/* Color input styles */
+input[type="color"] {
+  /* Add styles for color input */
+}
+
+/* Pen thickness input styles */
+input[type="range"] {
+  /* Add styles for range input */
+}
+
+/* Signature canvas styles */
+.signature-canvas {
+  /* Add styles for signature canvas */
+  width: 100%;
+  max-width: 850px; /* Set maximum width for large screens */
+  height: auto;
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 540px) {
+  /* Adjust canvas size for smaller screens */
+  .signature-canvas {
+    max-width: 100%;
+  }
+  .custom-button {
+    width: 100%;
+    margin-bottom: 0.5rem; /* Add margin-bottom for spacing */
+  }
+
+  /* Adjust layout for form section */
+  .flex.justify-center.gap-10.font-semibold {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  /* Adjust margin for buttons */
+  .flex.justify-center.m-5.gap-10 {
+    margin-top: 1rem; /* Add margin on top for spacing */
+  }
+  
+  }
+  
